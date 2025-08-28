@@ -11,7 +11,7 @@ The system is composed of four main services that communicate asynchronously thr
 
 * **API Gateway**: The client-facing service that handles all incoming requests, including authentication, file uploads, and downloads.
 * **Auth Service**: Manages user authentication using a MySQL database and issues JWTs for securing API endpoints.
-* **Converter Service**: A consumer service that listens for new video uploads via RabbitMQ, performs the video-to-MP3 conversion, and stores the result in MongoDB.
+* **Converter Service**: A consumer service that listens for new video uploads via RabbitMQ, performs the video to MP3 conversion, and stores the result in MongoDB.
 * **Notification Service**: A consumer service that listens for completed conversion events and notifies the user via email.
 
 ## Key Features
